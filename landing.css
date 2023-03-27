@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+@media screen and (max-width: 576px) {
+    .navbar{
+        width: 100%;
+        height: 300px;
+        background-color: green;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        width: 100%;
+        height: 300px;
+        background-color: green;
+    }
+}
+
+.navbar .logo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container .liste ul{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   color: white;
+   text-decoration: none;
+   list-style: none;
+}
+@media screen and (max-width: 576px) {
+    .container .liste ul {
+       display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+   .container .liste ul {
+       display: block;
+    }
+}
+.liste li{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        text-align: center;
+        flex-direction: column;
+    }
+}
+.mail{
+    padding-top: 20px;
+    color: white;
+}
+.montagne{
+    background-image: url(https://cdn.pixabay.com/photo/2014/08/23/10/54/mountain-425134_640.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+.back{
+    background-color: rgba(0, 128, 0, 0.599);
+    width: 100%;
+    height: 600px;
+}
+.montagne .contenu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.contenu{
+   padding-top: 250px;
+   font-size: 30px;
+}
+.text{
+    display: flex;
+}
+.blog{
+    margin-top: 20px;
+}
+.Awesome{
+    margin-top: 30px;
+}
+.H{
+    text-align: center;
+}
+.icon ion-icon{
+    width: 60px;
+    height: 60px;
+}
+.cloud{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card2{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 576px) {
+    .text{
+       display: flex;
+       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}
+.Client{
+    margin-top: 30px;
+    background: url(https://cdn.pixabay.com/photo/2016/11/29/02/28/woman-1866858_640.jpg);
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    background-color: rgba(0, 128, 0, 0.599);
+    width: 100%;
+    height: 250px;
+}
+.milieu{
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+}
+.milieu h2{
+    margin-bottom: 40px;
+}
+.milieu p{
+    font-size: 20px;
+}
+.gallery{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.ronde{
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .ligne{
+       margin-top: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ligne{
+       margin-top: 20px;
+    }
+}
+.H{
+    margin-top: 40px;
+    text-align: center;
+}
+.chiffre{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+    .chiffre{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .chiffre{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+.euro{
+    width: 50%;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.dollar{
+    width: 50%;
+    height: 300px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.euro h1{
+    font-size: 90px;
+}
+.dollar h1{
+    font-size: 90px;
+}
+.connexion{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.adress .small{
+    font-size: 50px;
+}
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    justify-content: flex-end;
+}
+.pied p{
+  display: flex;
+  flex-wrap: wrap;
+}
